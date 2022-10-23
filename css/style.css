@@ -2,16 +2,51 @@ body {
   background-color: #e1e1d0;
 }
 
+div {
+  display: flex;
+  justify-content: center;
+}
 img {
   height: auto;
-  width: 400px;
+  width: 90%;
 }
 
 h1 {
   text-align: center;
 }
 
-.font-text {
+* {
   font-family: "Courier New", Monospace;
   font-weight: bold;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol,
+.comment {
+  margin-top: 20px;
+  font-size: 18px;
+}
+ol {
+  margin-bottom: 50px;
+}
+
+.comment {
+  text-align: center;
+}
+
+h2 {
+  margin-top: 50px;
+  font-size: 23px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  
+}
+
+.menu {
+  background-color: #D0D0E1;
+  padding: 10px 0;
+  font-size: 25px;
+  margin-bottom: 8px;
 }
